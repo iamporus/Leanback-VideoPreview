@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.Leanback" />
+
+    <style name="MyCustomTitleView" parent="Widget.Leanback.Title.Text">
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="MyCustomBrowseStyle" parent="Theme.Leanback.Browse">
+        <item name="browseTitleTextStyle">@style/MyCustomTitleView</item>
+    </style>
+
+</resources>
